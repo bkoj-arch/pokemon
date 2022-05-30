@@ -5,6 +5,7 @@ class Dresseur():
         self.nom=nom
         self.pokemons=[]
         self.active_poke=None
+        self.nb_poke_alive=None
 
     def add_pokemon(self,poke):
         self.pokemons.append(poke)
@@ -23,7 +24,6 @@ class Dresseur():
         return noms
     
     def random_poke(self):
-        
         self.active_poke=random.choice(self.pokemons)
 
     def attaque(self,poke):
@@ -33,6 +33,5 @@ class Dresseur():
         for p in self.pokemons:
             if p.name.lower()==poke.lower():
                 self.active_poke=p
-                
                 return True
         return False
