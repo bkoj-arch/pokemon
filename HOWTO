@@ -1,0 +1,15 @@
+##### VERIFICATION
+
+S'assurer qu'il y a bien:
+
+dresseurs.json
+pokedex.json
+types.json
+
+dans le dossier bdd/
+
+sinon les récupérer sur: https://github.com/bkoj-arch/pokemon/tree/main/bdd
+
+##### LANCEMENT
+
+python main.py
